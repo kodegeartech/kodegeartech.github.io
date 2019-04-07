@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>DCentMASS</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+</head>
+<body>
+<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">DCentMASS</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="aboutus.html">About us</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Courses
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="self.html"> Self based courses</a>
+          <a class="dropdown-item" href="scheduled.html">Scheduled courses</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="allcourses.html">allcourses</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " href="#">Contact</a>
+      </li>
+      
+    </ul>
+    
+    <a class="nav-link " href="editor/editor.html" style="color:grey;">Run your code</a>
+    <button class="btn btn-primary my-2 my-sm-0 ml-2" type="submit">Log in</button>
+  
+  
+    <button class="btn btn-danger my-2 my-sm-0 ml-2" type="submit">Sign up</button>
+  
+  </div>
+</nav>
+	
+	 <div class="container">
+      <div class="row">
+        
+        <div class="col course-buttons">
+          <button type="button " class="btn btn-light">Development</button>
+          <button type="button " class="btn btn-light">Business</button>
+          <button type="button " class="btn btn-light">IT & Software</button>
+          <button type="button " class="btn btn-light">Office Productivity</button>
+          <button type="button " class="btn btn-light">Development</button>
+          <button type="button " class="btn btn-light">Business</button>
+          <button type="button " class="btn btn-light">IT & Software</button>
+          <button type="button " class="btn btn-light">Office Productivity</button>
+          
+          
+          
+        </div>
+      </div>
+    </div>
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="#">Home</a></li>
+      <li class="breadcrumb-item active">All courses</li>
+    </ol>
+    
+    <!-- /feature -->
+    <div class="container">
+    	<h5 class="text-center">All courses</h5>
+      <div class="row">
+      <div class="col">
+      
+      <div class="d-flex flex-row">
+		<div class="p-2">
+          <div class="dropdown">
+            <button class="btn btn-outline-danger dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Course Type
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#"> <input type="checkbox" aria-label="Checkbox for following text input">&nbsp;&nbsp;&nbsp;self based</a>
+              <a class="dropdown-item" href="#"> <input type="checkbox" aria-label="Checkbox for following text input">&nbsp;&nbsp;&nbsp;Instructor led(2,112)</a>
+              
+              
+              
+            </div>
+          </div>
+        </div>
+
+        <div class="p-2">
+          <div class="dropdown">
+            <button class="btn btn-outline-danger dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Level
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#"> <input type="checkbox" aria-label="Checkbox for following text input">&nbsp;&nbsp;&nbsp;All levels(2,112)</a>
+              <a class="dropdown-item" href="#"> <input type="checkbox" aria-label="Checkbox for following text input">&nbsp;&nbsp;&nbsp;Beginner (2,112)</a>
+              
+              <a class="dropdown-item" href="#"> <input type="checkbox" aria-label="Checkbox for following text input">&nbsp;&nbsp;&nbsp;Intermediate(2,112)</a>
+              
+              <a class="dropdown-item" href="#"> <input type="checkbox" aria-label="Checkbox for following text input">&nbsp;&nbsp;&nbsp;Advanced (2,112)</a>
+              
+            </div>
+          </div>
+        </div>
+        <div class="p-2">
+          <div class="dropdown">
+            <button class="btn btn-outline-danger dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Language
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#"> <input type="checkbox" aria-label="Checkbox for following text input">&nbsp;&nbsp;&nbsp;English (2,112)</a>
+              <a class="dropdown-item" href="#"> <input type="checkbox" aria-label="Checkbox for following text input">&nbsp;&nbsp;&nbsp;Hindi (2,112)</a>
+              
+              <a class="dropdown-item" href="#"> <input type="checkbox" aria-label="Checkbox for following text input">&nbsp;&nbsp;&nbsp;Kannada(2,112)</a>
+              
+              <a class="dropdown-item" href="#"> <input type="checkbox" aria-label="Checkbox for following text input">&nbsp;&nbsp;&nbsp;Urdu (2,112)</a>
+              
+              
+            </div>
+          </div>
+        </div>
+        <div class="p-2">
+          <div class="dropdown">
+            <button class="btn btn-outline-danger dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Price
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#"> <input type="checkbox" aria-label="Checkbox for following text input">&nbsp;&nbsp;&nbsp;Free (2,112)</a>
+              <a class="dropdown-item" href="#"> <input type="checkbox" aria-label="Checkbox for following text input">&nbsp;&nbsp;&nbsp;Paid (2,112)</a>
+              
+              <a class="dropdown-item" href="#"> <input type="checkbox" aria-label="Checkbox for following text input">&nbsp;&nbsp;&nbsp;On discount(2,112)</a>
+              
+              
+              
+              
+            </div>
+          </div>
+        </div>
+
+       
+      </div>
+    </div>
+    <div class="col">
+
+      <div class="d-flex flex-row">
+        <div class="p-2">
+           
+          <div class="dropdown">
+            Sort by:<button class="btn btn-outline-danger dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Popularity
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#"> <input type="checkbox" aria-label="Checkbox for following text input">&nbsp;&nbsp;&nbsp;Highest Rated</a>
+              <a class="dropdown-item" href="#"> <input type="checkbox" aria-label="Checkbox for following text input">&nbsp;&nbsp;&nbsp;Newest</a>
+              
+              <a class="dropdown-item" href="#"> <input type="checkbox" aria-label="Checkbox for following text input">&nbsp;&nbsp;&nbsp;low to high</a>
+              <a class="dropdown-item" href="#"> <input type="checkbox" aria-label="Checkbox for following text input">&nbsp;&nbsp;&nbsp; high to low</a>
+              
+              
+              
+            </div>
+          </div>
+       
+
+        </div>
+
+      </div>
+    </div>
+</div>
+</div>
+  <div class="container">
+  <div class="row">
+    
+  <div class="col">
+
+    
+    Trending: <button type="button " class="btn btn-primary">Development</button>
+    <button type="button " class="btn btn-primary">Business</button>
+    <button type="button " class="btn btn-primary">IT & Software</button>
+    <button type="button " class="btn btn-primary">Office Productivity</button>
+    <button type="button " class="btn btn-primary">Development</button>
+    <button type="button " class="btn btn-primary">Business</button>
+    <button type="button " class="btn btn-primary">IT & Software</button>
+    <button type="button " class="btn btn-primary">Office Productivity</button>
+    
+    
+    
+  </div>
+</div>
+</div>
+    <!-- all courses cards -->
+   <div class="container-fluid">
+
+  <!-- card row 1 -->
+  <div class="row">
+    <div class="col">
+<div class="card">
+  <img class="card-img-top" src="images/blog03.jpg" alt="Card image cap">
+  <div class="card-body">
+    <h6 class="card-title">The Complete JavaScript Course</h6>
+    <p class="card-text">Umar Golandaj</p>
+<div class="rating">
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<p>3.9 (12,300)</p>
+</div>
+    <a href="#" class="btn btn-primary">Buy now : Rs 600 /-</a>
+  </div>
+</div>
+</div>
+
+  <div class="col">
+<div class="card">
+  <img class="card-img-top" src="images/course04.jpg" alt="Card image cap">
+  <div class="card-body">
+    <h6 class="card-title">The Web Developer Bootcamp</h6>
+    <p class="card-text">Umar Golandaj</p>
+<div class="rating">
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<p>3.9 (12,300)</p>
+</div>
+    <a href="#" class="btn btn-primary">Buy now : Rs 600 /-</a>
+  </div>
+</div>
+</div>
+
+     <div class="col">
+<div class="card">
+  <img class="card-img-top" src="images/course08.jpg" alt="Card image cap">
+  <div class="card-body">
+    <h6 class="card-title">Photoshop CC 2018 MasterClass</h6>
+    <p class="card-text">Shahnawaaz shaikh</p>
+<div class="rating">
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<p>3.9 (12,300)</p>
+</div>
+    <a href="#" class="btn btn-primary">Buy now : Rs 600 /-</a>
+  </div>
+</div>
+</div>
+
+  <div class="col">
+<div class="card">
+  <img class="card-img-top" src="images/blog02.jpg" alt="Card image cap">
+  <div class="card-body">
+    <h6 class="card-title">The Complete Financial Analyst Training</h6>
+    <p class="card-text">Tejas </p>
+<div class="rating">
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<p>3.9 (12,300)</p>
+</div>
+    <a href="#" class="btn btn-primary">Buy now : Rs 600 /-</a>
+  </div>
+</div>
+</div>
+ <div class="col">
+<div class="card">
+  <img class="card-img-top" src="images/blog03.jpg" alt="Card image cap">
+  <div class="card-body">
+    <h6 class="card-title">The Complete JavaScript Course</h6>
+    <p class="card-text">Umar Golandaj</p>
+<div class="rating">
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<p>3.9 (12,300)</p>
+</div>
+    <a href="#" class="btn btn-primary">Buy now : Rs 600 /-</a>
+  </div>
+</div>
+</div>
+
+  
+</div>
+<!--  -->
+
+<!-- card row 2 -->
+
+  <div class="row">
+    <div class="col">
+<div class="card">
+  <img class="card-img-top" src="images/blog03.jpg" alt="Card image cap">
+  <div class="card-body">
+    <h6 class="card-title">The Complete JavaScript Course</h6>
+    <p class="card-text">Umar Golandaj</p>
+<div class="rating">
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<p>3.9 (12,300)</p>
+</div>
+    <a href="#" class="btn btn-primary">Buy now : Rs 600 /-</a>
+  </div>
+</div>
+</div>
+
+  <div class="col">
+<div class="card">
+  <img class="card-img-top" src="images/course04.jpg" alt="Card image cap">
+  <div class="card-body">
+    <h6 class="card-title">The Web Developer Bootcamp</h6>
+    <p class="card-text">Umar Golandaj</p>
+<div class="rating">
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<p>3.9 (12,300)</p>
+</div>
+    <a href="#" class="btn btn-primary">Buy now : Rs 600 /-</a>
+  </div>
+</div>
+</div>
+
+     <div class="col">
+<div class="card">
+  <img class="card-img-top" src="images/course08.jpg" alt="Card image cap">
+  <div class="card-body">
+    <h6 class="card-title">Photoshop CC 2018 MasterClass</h6>
+    <p class="card-text">Shahnawaaz shaikh</p>
+<div class="rating">
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<p>3.9 (12,300)</p>
+</div>
+    <a href="#" class="btn btn-primary">Buy now : Rs 600 /-</a>
+  </div>
+</div>
+</div>
+
+  <div class="col">
+<div class="card">
+  <img class="card-img-top" src="images/blog02.jpg" alt="Card image cap">
+  <div class="card-body">
+    <h6 class="card-title">The Complete Financial Analyst Training</h6>
+    <p class="card-text">Tejas </p>
+<div class="rating">
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<p>3.9 (12,300)</p>
+</div>
+    <a href="#" class="btn btn-primary">Buy now : Rs 600 /-</a>
+  </div>
+</div>
+</div>
+ <div class="col">
+<div class="card">
+  <img class="card-img-top" src="images/blog03.jpg" alt="Card image cap">
+  <div class="card-body">
+    <h6 class="card-title">The Complete JavaScript Course</h6>
+    <p class="card-text">Umar Golandaj</p>
+<div class="rating">
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<p>3.9 (12,300)</p>
+</div>
+    <a href="#" class="btn btn-primary">Buy now : Rs 600 /-</a>
+  </div>
+</div>
+</div>
+
+  
+</div>
+<!--  -->
+
+<!-- card row 3 -->
+
+  <div class="row">
+    <div class="col">
+<div class="card">
+  <img class="card-img-top" src="images/blog03.jpg" alt="Card image cap">
+  <div class="card-body">
+    <h6 class="card-title">The Complete JavaScript Course</h6>
+    <p class="card-text">Umar Golandaj</p>
+<div class="rating">
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<p>3.9 (12,300)</p>
+</div>
+    <a href="#" class="btn btn-primary">Buy now : Rs 600 /-</a>
+  </div>
+</div>
+</div>
+
+  <div class="col">
+<div class="card">
+  <img class="card-img-top" src="images/course04.jpg" alt="Card image cap">
+  <div class="card-body">
+    <h6 class="card-title">The Web Developer Bootcamp</h6>
+    <p class="card-text">Umar Golandaj</p>
+<div class="rating">
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<p>3.9 (12,300)</p>
+</div>
+    <a href="#" class="btn btn-primary">Buy now : Rs 600 /-</a>
+  </div>
+</div>
+</div>
+
+     <div class="col">
+<div class="card">
+  <img class="card-img-top" src="images/course08.jpg" alt="Card image cap">
+  <div class="card-body">
+    <h6 class="card-title">Photoshop CC 2018 MasterClass</h6>
+    <p class="card-text">Shahnawaaz shaikh</p>
+<div class="rating">
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<p>3.9 (12,300)</p>
+</div>
+    <a href="#" class="btn btn-primary">Buy now : Rs 600 /-</a>
+  </div>
+</div>
+</div>
+
+  <div class="col">
+<div class="card">
+  <img class="card-img-top" src="images/blog02.jpg" alt="Card image cap">
+  <div class="card-body">
+    <h6 class="card-title">The Complete Financial Analyst Training</h6>
+    <p class="card-text">Tejas </p>
+<div class="rating">
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<p>3.9 (12,300)</p>
+</div>
+    <a href="#" class="btn btn-primary">Buy now : Rs 600 /-</a>
+  </div>
+</div>
+</div>
+ <div class="col">
+<div class="card">
+  <img class="card-img-top" src="images/blog03.jpg" alt="Card image cap">
+  <div class="card-body">
+    <h6 class="card-title">The Complete JavaScript Course</h6>
+    <p class="card-text">Umar Golandaj</p>
+<div class="rating">
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<p>3.9 (12,300)</p>
+</div>
+    <a href="#" class="btn btn-primary">Buy now : Rs 600 /-</a>
+  </div>
+</div>
+</div>
+
+  
+</div>
+
+<!-- card row 4 -->
+
+  <div class="row">
+    <div class="col">
+<div class="card">
+  <img class="card-img-top" src="images/blog03.jpg" alt="Card image cap">
+  <div class="card-body">
+    <h6 class="card-title">The Complete JavaScript Course</h6>
+    <p class="card-text">Umar Golandaj</p>
+<div class="rating">
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<p>3.9 (12,300)</p>
+</div>
+    <a href="#" class="btn btn-primary">Buy now : Rs 600 /-</a>
+  </div>
+</div>
+</div>
+
+  <div class="col">
+<div class="card">
+  <img class="card-img-top" src="images/course04.jpg" alt="Card image cap">
+  <div class="card-body">
+    <h6 class="card-title">The Web Developer Bootcamp</h6>
+    <p class="card-text">Umar Golandaj</p>
+<div class="rating">
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<p>3.9 (12,300)</p>
+</div>
+    <a href="#" class="btn btn-primary">Buy now : Rs 600 /-</a>
+  </div>
+</div>
+</div>
+
+     <div class="col">
+<div class="card">
+  <img class="card-img-top" src="images/course08.jpg" alt="Card image cap">
+  <div class="card-body">
+    <h6 class="card-title">Photoshop CC 2018 MasterClass</h6>
+    <p class="card-text">Shahnawaaz shaikh</p>
+<div class="rating">
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<p>3.9 (12,300)</p>
+</div>
+    <a href="#" class="btn btn-primary">Buy now : Rs 600 /-</a>
+  </div>
+</div>
+</div>
+
+  <div class="col">
+<div class="card">
+  <img class="card-img-top" src="images/blog02.jpg" alt="Card image cap">
+  <div class="card-body">
+    <h6 class="card-title">The Complete Financial Analyst Training</h6>
+    <p class="card-text">Tejas </p>
+<div class="rating">
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<p>3.9 (12,300)</p>
+</div>
+    <a href="#" class="btn btn-primary">Buy now : Rs 600 /-</a>
+  </div>
+</div>
+</div>
+ <div class="col">
+<div class="card">
+  <img class="card-img-top" src="images/blog03.jpg" alt="Card image cap">
+  <div class="card-body">
+    <h6 class="card-title">The Complete JavaScript Course</h6>
+    <p class="card-text">Umar Golandaj</p>
+<div class="rating">
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<p>3.9 (12,300)</p>
+</div>
+    <a href="#" class="btn btn-primary">Buy now : Rs 600 /-</a>
+  </div>
+</div>
+</div>
+
+  
+</div>
+</div>
+
+<footer class="mainfooter mt-4" role="contentinfo">
+  <div class="footer-top p-y-2">
+    
+  </div>
+  <div class="footer-middle">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 col-sm-6">
+        <!--Column1-->
+        <div class="footer-pad">
+          <h5>Address</h5>
+          <address>
+								<ul class="list-unstyled">
+									<li>
+                    Suco technologies<br>
+										Haliyal road<br>
+										dharwad<br>
+										karnataka<br>
+									</li>
+									<li>
+										Phone: 91919191919
+									</li>
+								</ul>
+							</address>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <!--Column1-->
+        <div class="footer-pad">
+          <h5>Popular Services</h5>
+          <ul class="list-unstyled">
+            <li><a href="#"></a></li>
+            <li><a href="#">Payment Center</a></li>
+            <li><a href="#">Contact Directory</a></li>
+            <li><a href="#">Forms</a></li>
+            <li><a href="#">News and Updates</a></li>
+            <li><a href="#">FAQs</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <!--Column1-->
+        <div class="footer-pad">
+          <h5>Website Information</h5>
+          <ul class="list-unstyled">
+            <li><a href="#">Website Tutorial</a></li>
+            <li><a href="#">Accessibility</a></li>
+            <li><a href="#">Disclaimer</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">FAQs</a></li>
+            <li><a href="#">Webmaster</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <!--Column1-->
+        <div class="footer-pad">
+          <h5>Popular Departments</h5>
+          <ul class="list-unstyled">
+            <li><a href="#">Parks and Recreation</a></li>
+            <li><a href="#">Public Works</a></li>
+            <li><a href="#">Police Department</a></li>
+            <!-- <li><a href="#">Fire</a></li> -->
+            <li><a href="#">Mayor and City Council</a></li>
+            <li>
+              <a href="#"></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <!--Footer Bottom-->
+          <p class="text-xs-center">&copy; Copyright 2018 - DCentMASS.  All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
