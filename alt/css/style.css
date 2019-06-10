@@ -47,6 +47,7 @@
         margin-right:100px;
         color: #1E9AF2 !important;
         border-color:#1E9AF2 !important;
+        border-radius: 0px!important;
     }
     
     }
@@ -54,8 +55,9 @@
 .custom-h1
 {
     font-family: 'Open Sans', sans-serif;
-    font-size: 32px;
+    font-size: 35px;
     font-weight:bold;
+    color: #1E9AF2;
 
 }
 
@@ -109,9 +111,7 @@
     background-color: #eee;
   }
 
-  .btn{
-    border-radius: 25px!important;
-  }
+ 
 
   .custom-button
   {
@@ -126,10 +126,13 @@
   
   .custom-button2
   {
-      width:175px;
+      width:200px;
+      border-radius: 25px!important;
      
     color: #1E9AF2 !important;
-    border-color: #1E9AF2 !important;
+    border: 2px solid   #1E9AF2 !important;
+    font-weight:bold;
+
   }
 
 
@@ -186,4 +189,126 @@
 }
 
 
+.get-started-button{
+  border-radius:0px!important;
+  color: #fff !important;
+    border-color: #1E9AF2 !important;
+    background: #1E9AF2;
+}
+
+.get-started-input{
+  border-radius:0px!important;
+}
+
+
+@media (min-width: 680px){
+  .custom-input-group{
+ 
+    width: 85%!important;
+  }
   
+  }
+
+
+  .get-started-input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color:#1E9AF2!important;
+    opacity: 1; /* Firefox */
+    font-weight:bold;
+  }
+
+  .section2{
+    margin-top: 100px;
+  }
+
+  .home-section2 img{
+    width:400px;
+  }
+
+
+ .section2{
+    background:#E8EAF1;
+  }
+
+  .img-container {
+    position: relative;
+    text-align: center;
+    color: black;
+  }
+
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+.section2-header{
+  color: #1E9AF2;
+}
+.section2-text{
+  color:#1E9AF2;
+  font-size:14px;
+}
+
+
+.section-padding{
+  padding-top: 50px;
+}
+
+.contactus-form input[type="text"], textarea {
+
+  background-color:#E8F5FE; 
+
+}
+
+.contactus-form  input[type="email"], textarea {
+
+  background-color :#E8F5FE; 
+
+}
+.contactus-form input[type="name"], textarea {
+
+  background-color :#E8F5FE;
+
+}
+.contactus-form input[type="password"], textarea {
+
+  background-color :#E8F5FE;
+
+}
+
+header.masthead {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 72px);
+  background: -webkit-gradient(linear,left top,left bottom,from(rgba(92,77,66,.8)),to(rgba(92,77,66,.8))),url(../img/bg-masthead.jpg);
+  background: url(../img/background.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.forgot-password{
+color: #199BDC;
+font-size: 12px;
+}
+
+.or { width:100%; text-align:center; border-bottom: 2px solid rgba(33,33, 33,0.1); line-height:0.1em; margin:10px 0 20px; } 
+.or span { background:#fff; padding:0 10px; }
+
+.or{
+color:rgba(33,33, 33,0.5);
+}
+@media only screen and (min-width: 992px) {
+.td-padding{
+padding-left: 110px;
+}
+}
+
+.fa-linkedin{
+color: #199BDC;
+}
+
+.c-account{
+color: #199BDC;
+}
